@@ -1,0 +1,154 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.instagram:hover {
+  width: auto;
+  height: auto;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.box_icons {
+  min-width: 210px;
+}
+
+.flex-100 {
+  flex: 0 0 auto;
+}
+
+.navbar {
+  @apply py-2;
+  @apply flex;
+  @apply px-12;
+  @apply flex-wrap;
+  @apply items-center;
+  @apply justify-between;
+  background: linear-gradient(90deg, #ebf4ff, #5a67d8);
+}
+
+.navbar-logo {
+  @apply flex;
+  @apply mr-6;
+  @apply items-center;
+  @apply flex-shrink-0;
+}
+
+.navbar-menu {
+  @apply flex;
+  @apply px-3;
+  @apply py-2;
+  @apply border;
+  @apply text-black;
+  @apply bg-gray-100;
+  @apply items-center;
+  @apply border-gray-100;
+  @apply border-indigo-400;
+}
+.navbar-items {
+  @apply w-full;
+  @apply block;
+  @apply flex-grow;
+  @apply ml-4;
+}
+
+.navbar-ul {
+  @apply mr-6;
+  @apply text-sm;
+  @apply font-thin;
+  @apply bg-indigo-100;
+}
+
+.navbar-li {
+  @apply mt-4;
+  @apply py-2;
+  @apply px-3;
+  @apply block;
+  @apply font-bold;
+  @apply tracking-wide;
+  @apply text-indigo-900;
+}
+
+.lang {
+  fill: #fff;
+}
+
+.lang:hover {
+  fill: #f6ad55;
+}
+
+.minh-1-8 {
+  min-height: 12.5vh;
+}
+
+.footer {
+  @apply flex;
+  @apply px-6;
+  @apply py-4;
+  @apply flex-col;
+  @apply flex-wrap;
+  @apply items-center;
+  @apply justify-between;
+  background: linear-gradient(360deg, #ebf4ff, #5a67d8);
+}
+
+.footer-card {
+  @apply px-8;
+  @apply py-6;
+  @apply mb-4;
+  @apply bg-white;
+  @apply shadow-md;
+}
+
+.footer-label {
+  @apply mb-2;
+  @apply block;
+  @apply text-sm;
+  @apply font-bold;
+  @apply text-gray-700;
+}
+
+.footer-input {
+  @apply p-2;
+  @apply shadow;
+  @apply border;
+  @apply text-gray-700;
+  @apply leading-tight;
+}
+
+.footer-button {
+  @apply py-2;
+  @apply px-4;
+  @apply border;
+  @apply font-bold;
+  @apply text-white;
+  @apply border-solid;
+  @apply bg-indigo-700;
+  @apply tracking-wide;
+}

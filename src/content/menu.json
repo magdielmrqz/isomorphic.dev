@@ -1,0 +1,32 @@
+{
+  "Menu": {
+    "es": [
+      {
+        "label": "About",
+        "sort": 1,
+        "id": "about",
+        "url": "/about"
+      },
+      {
+        "label": "Blog",
+        "sort": 2,
+        "id": "blog",
+        "url": "/blog"
+      }
+    ],
+    "en": [
+      {
+        "label": "Acerca",
+        "sort": 1,
+        "id": "about",
+        "url": "/es/acerca"
+      },
+      {
+        "label": "Blog",
+        "sort": 2,
+        "id": "blog",
+        "url": "/es/blog"
+      }
+    ]
+  }
+}
